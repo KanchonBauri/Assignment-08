@@ -1,10 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import NavBar from "../Navbar/NavBar";
+import { Toaster } from 'react-hot-toast';
+
 
 const Root = () => {
     return (
         <div>
+            <Toaster></Toaster>
             <div className="h-16">
                 <NavBar></NavBar>
             </div>

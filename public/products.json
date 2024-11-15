@@ -3,10 +3,16 @@
         "id": 1,
         "product_title": "Smartphone Pro Max",
         "product_image": "https://i.ibb.co.com/1fSVmrK/ph5.jpg",
-        "category": "phone",
+        "categorys": "all",
+        "slug": "all",
         "price": 999.99,
         "description": "High-end smartphone with exceptional camera and display.",
-        "specification": ["6.7-inch OLED display", "128GB storage", "Triple-lens camera", "5G capable"],
+        "specification": [
+            "6.7-inch OLED display",
+            "128GB storage",
+            "Triple-lens camera",
+            "5G capable"
+        ],
         "availability": true,
         "rating": 4.8,
         "brand": "TechBrand"
@@ -18,7 +24,12 @@
         "category": "laptop",
         "price": 1499.99,
         "description": "Sleek and powerful ultrabook for professionals.",
-        "specification": ["14-inch Retina display", "16GB RAM", "512GB SSD", "Intel i7 processor"],
+        "specification": [
+            "14-inch Retina display",
+            "16GB RAM",
+            "512GB SSD",
+            "Intel i7 processor"
+        ],
         "availability": true,
         "rating": 4.7,
         "brand": "ComputeX"
@@ -30,7 +41,12 @@
         "category": "accessories",
         "price": 129.99,
         "description": "True wireless earbuds with active noise cancellation.",
-        "specification": ["Bluetooth 5.0", "ANC", "24-hour battery life", "IPX4 water resistance"],
+        "specification": [
+            "Bluetooth 5.0",
+            "ANC",
+            "24-hour battery life",
+            "IPX4 water resistance"
+        ],
         "availability": true,
         "rating": 4.6,
         "color": "Black"
@@ -42,7 +58,12 @@
         "category": "laptop",
         "price": 1799.99,
         "description": "High-performance gaming laptop with powerful GPU.",
-        "specification": ["17-inch FHD display", "16GB RAM", "1TB SSD", "NVIDIA RTX 3060"],
+        "specification": [
+            "17-inch FHD display",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA RTX 3060"
+        ],
         "availability": true,
         "rating": 4.8,
         "brand": "GameMaster"
@@ -54,7 +75,11 @@
         "category": "accessories",
         "price": 39.99,
         "description": "Fast wireless charger compatible with Qi devices.",
-        "specification": ["10W charging", "Non-slip surface", "USB-C input"],
+        "specification": [
+            "10W charging",
+            "Non-slip surface",
+            "USB-C input"
+        ],
         "availability": true,
         "rating": 4.5,
         "color": "White"
@@ -66,7 +91,12 @@
         "category": "laptop",
         "price": 1199.99,
         "description": "Convertible laptop that doubles as a tablet.",
-        "specification": ["12.5-inch touchscreen", "8GB RAM", "256GB SSD", "Intel i5 processor"],
+        "specification": [
+            "12.5-inch touchscreen",
+            "8GB RAM",
+            "256GB SSD",
+            "Intel i5 processor"
+        ],
         "availability": true,
         "rating": 4.3,
         "brand": "FlexiTech"
@@ -78,7 +108,12 @@
         "category": "phone",
         "price": 299.99,
         "description": "Affordable smartphone with essential features.",
-        "specification": ["5.5-inch LCD display", "64GB storage", "Single-lens camera", "4G capable"],
+        "specification": [
+            "5.5-inch LCD display",
+            "64GB storage",
+            "Single-lens camera",
+            "4G capable"
+        ],
         "availability": false,
         "rating": 4.0,
         "brand": "EcoMobile"
@@ -90,7 +125,12 @@
         "category": "accessories",
         "price": 59.99,
         "description": "Portable Bluetooth speaker with deep bass.",
-        "specification": ["10W output", "12-hour battery", "Water-resistant", "Bluetooth 5.0"],
+        "specification": [
+            "10W output",
+            "12-hour battery",
+            "Water-resistant",
+            "Bluetooth 5.0"
+        ],
         "availability": true,
         "rating": 4.4,
         "color": "Blue"
@@ -102,7 +142,12 @@
         "category": "phone",
         "price": 899.99,
         "description": "Premium smartphone with an advanced display and camera.",
-        "specification": ["6.9-inch OLED display", "256GB storage", "Quad-lens camera", "5G capable"],
+        "specification": [
+            "6.9-inch OLED display",
+            "256GB storage",
+            "Quad-lens camera",
+            "5G capable"
+        ],
         "availability": true,
         "rating": 4.7,
         "brand": "NextGen"
@@ -114,7 +159,12 @@
         "category": "laptop",
         "price": 1299.99,
         "description": "Professional-grade laptop with high-resolution display.",
-        "specification": ["15.6-inch Retina display", "16GB RAM", "1TB SSD", "AMD Ryzen 7"],
+        "specification": [
+            "15.6-inch Retina display",
+            "16GB RAM",
+            "1TB SSD",
+            "AMD Ryzen 7"
+        ],
         "availability": true,
         "rating": 4.9,
         "brand": "ComputeX"
@@ -126,7 +176,11 @@
         "category": "accessories",
         "price": 19.99,
         "description": "Magnetic phone mount for car dashboards.",
-        "specification": ["360-degree rotation", "Strong magnet", "Easy installation"],
+        "specification": [
+            "360-degree rotation",
+            "Strong magnet",
+            "Easy installation"
+        ],
         "availability": true,
         "rating": 4.2,
         "color": "Black"
@@ -138,7 +192,12 @@
         "category": "phone",
         "price": 699.99,
         "description": "Smartphone optimized for gaming with high refresh rate.",
-        "specification": ["6.8-inch AMOLED", "128GB storage", "90Hz refresh rate", "5G capable"],
+        "specification": [
+            "6.8-inch AMOLED",
+            "128GB storage",
+            "90Hz refresh rate",
+            "5G capable"
+        ],
         "availability": true,
         "rating": 4.5,
         "brand": "GamePhone"
@@ -150,7 +209,12 @@
         "category": "laptop",
         "price": 999.99,
         "description": "Lightweight laptop with extended battery life.",
-        "specification": ["13.3-inch display", "8GB RAM", "512GB SSD", "Intel i5"],
+        "specification": [
+            "13.3-inch display",
+            "8GB RAM",
+            "512GB SSD",
+            "Intel i5"
+        ],
         "availability": true,
         "rating": 4.6,
         "brand": "ComputeX"
@@ -162,7 +226,11 @@
         "category": "accessories",
         "price": 34.99,
         "description": "Portable power bank with fast charging capabilities.",
-        "specification": ["10000mAh", "USB-C and USB-A", "Fast charging support"],
+        "specification": [
+            "10000mAh",
+            "USB-C and USB-A",
+            "Fast charging support"
+        ],
         "availability": true,
         "rating": 4.7,
         "color": "Black"
@@ -174,7 +242,12 @@
         "category": "laptop",
         "price": 549.99,
         "description": "Budget-friendly laptop for everyday tasks.",
-        "specification": ["15.6-inch display", "4GB RAM", "128GB SSD", "Intel i3"],
+        "specification": [
+            "15.6-inch display",
+            "4GB RAM",
+            "128GB SSD",
+            "Intel i3"
+        ],
         "availability": true,
         "rating": 4.0,
         "brand": "ComputeX"
@@ -182,11 +255,16 @@
     {
         "id": 16,
         "product_title": "Smartphone Mini",
-        "product_image":"https://i.ibb.co.com/XCFZ3Rq/ph6.jpg",
+        "product_image": "https://i.ibb.co.com/XCFZ3Rq/ph6.jpg",
         "category": "phone",
         "price": 499.99,
         "description": "Compact smartphone with premium features.",
-        "specification": ["5.8-inch OLED", "128GB storage", "Dual-lens camera", "5G"],
+        "specification": [
+            "5.8-inch OLED",
+            "128GB storage",
+            "Dual-lens camera",
+            "5G"
+        ],
         "availability": false,
         "rating": 4.5,
         "brand": "NextGen"
@@ -198,7 +276,11 @@
         "category": "accessories",
         "price": 29.99,
         "description": "Premium leather phone case for protection and style.",
-        "specification": ["Genuine leather", "Shockproof", "Compatible with various models"],
+        "specification": [
+            "Genuine leather",
+            "Shockproof",
+            "Compatible with various models"
+        ],
         "availability": true,
         "rating": 4
     }

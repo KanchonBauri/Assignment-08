@@ -4,7 +4,8 @@ import Heading from '../Heading/Heading';
 import { FaRegHeart } from "react-icons/fa";
 import { GiShoppingCart } from "react-icons/gi";
 import { addToStoredAddList, addToStoredWishList } from '../../utils/addToDb';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ProductDeails = () => {
     const { id } = useParams();
@@ -29,6 +30,8 @@ const ProductDeails = () => {
 
         addToStoredWishList(id);
     }
+
+   
 
     return (
         <>
@@ -70,7 +73,8 @@ const ProductDeails = () => {
 
                             <div className='flex gap-5 items-center'>
                                 <div onClick={() => handleMarkAdd(id)} className='flex gap-2 items-center'>
-                                    <button className='btn rounded-full text-[20px] btn-primary'>Add to cart <span className="text-3xl "><GiShoppingCart /></span></button>
+                                    <button  className='btn rounded-full text-[20px] btn-primary'>Add to cart <span className="text-3xl "><GiShoppingCart /></span></button>
+                                    
                                 </div>
                                 <button onClick={() => handleMarkWish(id)} className="text-3xl "><FaRegHeart /></button>
                             </div>

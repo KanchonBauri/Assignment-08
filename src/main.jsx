@@ -12,7 +12,8 @@ import Statistics from './Components/Statistics/Statistics';
 import Dashboard from './Components/Dashboard/Dashboard';
 import ProductCards from './Components/ProductCards/ProductCards';
 import ProductDeails from './Components/ProductDetails/ProductDeails';
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -53,10 +54,21 @@ const routes = createBrowserRouter([
     ],
 
   },
-]);
+],{
+  future:{
+    v7_startTransition: true,
+    v7_skipActionErrorRevalidation: true,
+    v7_fetcherPersist: true,
+    v7_normalizeFormMethod: true,
+    v7_partialHydration: true,
+    v7_relativeSplatPath: true,
+    v7_partialHydration: true,
+  }
+});
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={routes} future={{v7_startTransition:true,}} />
+    <ToastContainer />
   </StrictMode>,
 )

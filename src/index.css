@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  
+  .nav-button {
+    background-color: white; /* Default background color */
+  }
+  
+  .nav-button.active {
+    background-color: #86198f /* Active button background color */
+  }
+  
+  
