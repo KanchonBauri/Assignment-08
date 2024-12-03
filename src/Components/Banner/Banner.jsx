@@ -20,6 +20,9 @@ const Banner = () => {
             <div className='-mt-40 mx-auto'>
                 <img className='w-[900px] border-4 bg-slate-200 bg-opacity-40 p-4 h-96 '  src="https://i.ibb.co.com/4YWhVK1/banner.jpg" alt="" />
             </div>
+
+
+            <h2 className='text-5xl my-5 p-5 font-bold text-fuchsia-700 text-center'>Explore Cutting-Edge Gadgets</h2>
         </div>
     );
 };

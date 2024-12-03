@@ -6,9 +6,9 @@ import { Toaster } from 'react-hot-toast';
 
 const Root = () => {
     return (
-        <div>
+        <div className=" w-11/12 mx-auto">
             <Toaster></Toaster>
-            <div className="h-16">
+            <div className="h-16 ">
                 <NavBar></NavBar>
             </div>
             <div className="min-h-[calc(100vh-316px)]">

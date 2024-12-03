@@ -1,7 +1,9 @@
 import { toast } from "react-toastify";
 
 const getStoredAddList = () => {
+  
     const storedListStr = localStorage.getItem('add-list');
+    // console.log(storedListStr)
     if (storedListStr) {
         const storedList = JSON.parse(storedListStr);
         return storedList;
@@ -11,19 +13,21 @@ const getStoredAddList = () => {
     }
 }
 
-const addToStoredAddList = (id) => {
+const addToStoredAddList = (product) => {
     const storedList = getStoredAddList();
-    if (storedList.includes(id)) {
-        console.log(id, 'already exists in the add list')
+    
+    if (storedList.includes(product)) {
+        console.log(product, 'already exists in the add list')
         toast.error('Already exists in the add list!', { position: 'top-center' });
     }
     else {
-        storedList.push(id);
-        const storedListStr = JSON.stringify(storedList);
-        localStorage.setItem('add-list', storedListStr);
+        storedList.push(product);
+        // const storedListStr = JSON.stringify(storedList);
+        localStorage.setItem('add-list', JSON.stringify(storedList));
         toast.success('Successfully cart add!');
     }
 }
+
 const getStoredWishList = () => {
     const storedListStr = localStorage.getItem('wish-list');
     if (storedListStr) {
@@ -35,14 +39,14 @@ const getStoredWishList = () => {
     }
 }
 
-const addToStoredWishList = (id) => {
+const addToStoredWishList = (product) => {
     const storedList = getStoredWishList();
-    if (storedList.includes(id)) {
-        console.log(id, 'already exists in the wish list')
+    if (storedList.includes(product)) {
+        console.log(product, 'already exists in the wish list')
         toast.error('Already exists in the wish list!', { position: 'top-center' });
     }
     else {
-        storedList.push(id);
+        storedList.push(product);
         const storedListStr = JSON.stringify(storedList);
         localStorage.setItem('wish-list', storedListStr);
         toast.success('Successfully wish add!');
@@ -52,10 +56,13 @@ const addToStoredWishList = (id) => {
 // remove products deleted 
 const removeAddProduct = (id) => {
     const storedList = getStoredAddList();
-    const remaining = storedList.filter(product => product.id != id)
-    const storedListStr = JSON.stringify(remaining);
-    localStorage.setItem('add-list', storedListStr);
+    console.log(storedList)
+    // console.log(storedList)
+    const remaining = storedList.filter(product => product != id)
+    // const storedListStr = JSON.stringify(remaining);
+    localStorage.setItem('add-list', JSON.stringify(remaining));
     toast.success('Successfully cart removed!');
+   
 }
 
 

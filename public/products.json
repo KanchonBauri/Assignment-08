@@ -3,8 +3,7 @@
         "id": 1,
         "product_title": "Smartphone Pro Max",
         "product_image": "https://i.ibb.co.com/1fSVmrK/ph5.jpg",
-        "categorys": "all",
-        "slug": "all",
+        "category": "phone",
         "price": 999.99,
         "description": "High-end smartphone with exceptional camera and display.",
         "specification": [
@@ -274,6 +273,290 @@
         "product_title": "Leather Phone Case",
         "product_image": "https://i.ibb.co.com/yR4fJXj/airpod6.jpg",
         "category": "accessories",
+        "price": 29.99,
+        "description": "Premium leather phone case for protection and style.",
+        "specification": [
+            "Genuine leather",
+            "Shockproof",
+            "Compatible with various models"
+        ],
+        "availability": true,
+        "rating": 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
+    }, 
+    {
+        "id": 18,
+        "product_title": "Smartphone Pro Max",
+        "product_image": "https://i.ibb.co.com/1fSVmrK/ph5.jpg",
+        "category": "all",
+        "price": 999.99,
+        "description": "High-end smartphone with exceptional camera and display.",
+        "specification": [
+            "6.7-inch OLED display",
+            "128GB storage",
+            "Triple-lens camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "TechBrand"
+    },
+    {
+        "id": 19,
+        "product_title": "Ultrabook Z14",
+        "product_image": "https://i.ibb.co.com/WH5dVYb/download-1.jpg",
+        "category": "all",
+        "price": 1499.99,
+        "description": "Sleek and powerful ultrabook for professionals.",
+        "specification": [
+            "14-inch Retina display",
+            "16GB RAM",
+            "512GB SSD",
+            "Intel i7 processor"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "ComputeX"
+    },
+    {
+        "id": 20,
+        "product_title": "Noise-Canceling Earbuds",
+        "product_image": "https://i.ibb.co.com/J7fk1Y7/airpod1.jpg",
+        "category": "all",
+        "price": 129.99,
+        "description": "True wireless earbuds with active noise cancellation.",
+        "specification": [
+            "Bluetooth 5.0",
+            "ANC",
+            "24-hour battery life",
+            "IPX4 water resistance"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "color": "Black"
+    },
+    {
+        "id": 21,
+        "product_title": "Gaming Laptop X",
+        "product_image": "https://i.ibb.co.com/d7jhG2b/HP-Laptop-15-dy2093dx-Price.webp",
+        "category": "all",
+        "price": 1799.99,
+        "description": "High-performance gaming laptop with powerful GPU.",
+        "specification": [
+            "17-inch FHD display",
+            "16GB RAM",
+            "1TB SSD",
+            "NVIDIA RTX 3060"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "GameMaster"
+    },
+    {
+        "id": 22,
+        "product_title": "Wireless Charger",
+        "product_image": "https://i.ibb.co.com/5MQ4RKN/airpod2.jpg",
+        "category": "all",
+        "price": 39.99,
+        "description": "Fast wireless charger compatible with Qi devices.",
+        "specification": [
+            "10W charging",
+            "Non-slip surface",
+            "USB-C input"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "color": "White"
+    },
+    {
+        "id": 23,
+        "product_title": "Convertible Laptop S12",
+        "product_image": "https://i.ibb.co.com/VjGmyQF/download-14.jpg",
+        "category": "all",
+        "price": 1199.99,
+        "description": "Convertible laptop that doubles as a tablet.",
+        "specification": [
+            "12.5-inch touchscreen",
+            "8GB RAM",
+            "256GB SSD",
+            "Intel i5 processor"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "brand": "FlexiTech"
+    },
+    {
+        "id": 24,
+        "product_title": "Smartphone Lite",
+        "product_image": "https://i.ibb.co.com/Zh12DT3/download-16.jpg",
+        "category": "all",
+        "price": 299.99,
+        "description": "Affordable smartphone with essential features.",
+        "specification": [
+            "5.5-inch LCD display",
+            "64GB storage",
+            "Single-lens camera",
+            "4G capable"
+        ],
+        "availability": false,
+        "rating": 4.0,
+        "brand": "EcoMobile"
+    },
+    {
+        "id": 25,
+        "product_title": "Bluetooth Speaker",
+        "product_image": "https://i.ibb.co.com/KWqF9JT/airpod3.jpg",
+        "category": "all",
+        "price": 59.99,
+        "description": "Portable Bluetooth speaker with deep bass.",
+        "specification": [
+            "10W output",
+            "12-hour battery",
+            "Water-resistant",
+            "Bluetooth 5.0"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "color": "Blue"
+    },
+    {
+        "id": 26,
+        "product_title": "Smartphone Ultra",
+        "product_image": "https://i.ibb.co.com/KbtzJXW/download-17.jpg",
+        "category": "all",
+        "price": 899.99,
+        "description": "Premium smartphone with an advanced display and camera.",
+        "specification": [
+            "6.9-inch OLED display",
+            "256GB storage",
+            "Quad-lens camera",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "brand": "NextGen"
+    },
+    {
+        "id": 27,
+        "product_title": "Laptop Pro 15",
+        "product_image": "https://i.ibb.co.com/TqwGCtk/download-4.jpg",
+        "category": "all",
+        "price": 1299.99,
+        "description": "Professional-grade laptop with high-resolution display.",
+        "specification": [
+            "15.6-inch Retina display",
+            "16GB RAM",
+            "1TB SSD",
+            "AMD Ryzen 7"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "brand": "ComputeX"
+    },
+    {
+        "id": 28,
+        "product_title": "Magnetic Car Mount",
+        "product_image": "https://i.ibb.co.com/YDrL1Lh/airpod4.jpg",
+        "category": "all",
+        "price": 19.99,
+        "description": "Magnetic phone mount for car dashboards.",
+        "specification": [
+            "360-degree rotation",
+            "Strong magnet",
+            "Easy installation"
+        ],
+        "availability": true,
+        "rating": 4.2,
+        "color": "Black"
+    },
+    {
+        "id": 29,
+        "product_title": "Gaming Phone X",
+        "product_image": "https://i.ibb.co.com/1fSVmrK/ph5.jpg",
+        "category": "all",
+        "price": 699.99,
+        "description": "Smartphone optimized for gaming with high refresh rate.",
+        "specification": [
+            "6.8-inch AMOLED",
+            "128GB storage",
+            "90Hz refresh rate",
+            "5G capable"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "GamePhone"
+    },
+    {
+        "id": 30,
+        "product_title": "Laptop Air 13",
+        "product_image": "https://i.ibb.co.com/MN5M41z/download-13.jpg",
+        "category": "all",
+        "price": 999.99,
+        "description": "Lightweight laptop with extended battery life.",
+        "specification": [
+            "13.3-inch display",
+            "8GB RAM",
+            "512GB SSD",
+            "Intel i5"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "brand": "ComputeX"
+    },
+    {
+        "id": 31,
+        "product_title": "Portable Power Bank",
+        "product_image": "https://i.ibb.co.com/JtkYc3z/airpod5.jpg",
+        "category": "all",
+        "price": 34.99,
+        "description": "Portable power bank with fast charging capabilities.",
+        "specification": [
+            "10000mAh",
+            "USB-C and USB-A",
+            "Fast charging support"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "color": "Black"
+    },
+    {
+        "id": 32,
+        "product_title": "Budget Laptop B10",
+        "product_image": "https://i.ibb.co.com/LxvR8vJ/download-3.jpg",
+        "category": "all",
+        "price": 549.99,
+        "description": "Budget-friendly laptop for everyday tasks.",
+        "specification": [
+            "15.6-inch display",
+            "4GB RAM",
+            "128GB SSD",
+            "Intel i3"
+        ],
+        "availability": true,
+        "rating": 4.0,
+        "brand": "ComputeX"
+    },
+    {
+        "id": 33,
+        "product_title": "Smartphone Mini",
+        "product_image": "https://i.ibb.co.com/XCFZ3Rq/ph6.jpg",
+        "category": "all",
+        "price": 499.99,
+        "description": "Compact smartphone with premium features.",
+        "specification": [
+            "5.8-inch OLED",
+            "128GB storage",
+            "Dual-lens camera",
+            "5G"
+        ],
+        "availability": false,
+        "rating": 4.5,
+        "brand": "NextGen"
+    },
+    {
+        "id": 34,
+        "product_title": "Leather Phone Case",
+        "product_image": "https://i.ibb.co.com/yR4fJXj/airpod6.jpg",
+        "category": "all",
         "price": 29.99,
         "description": "Premium leather phone case for protection and style.",
         "specification": [

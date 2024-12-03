@@ -1,7 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLoaderData } from 'react-router-dom';
 
 const Categories = ({categories}) => {
+    const data = useLoaderData();
+    // console.log(data)
     return (
         <div>
              <div role="tablist" className=" flex justify-start p-10 flex-col gap-10  tabs-boxed">

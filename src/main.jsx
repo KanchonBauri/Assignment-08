@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import {
   createBrowserRouter,
+  Navigate,
   RouterProvider,
 } from "react-router-dom";
 import Root from './Components/Root/Root';
@@ -23,17 +24,21 @@ const routes = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('../public/categories.json'),
+        loader: () => fetch('/categories.json'),
         children: [
+          {
+            path: "/",
+            element: <Navigate to={"/category/all"}></Navigate>
+          },
           {
             path: '/',
             element: <ProductCards></ProductCards>,
-            loader: () => fetch('../public/products.json')
+            loader: () => fetch('/products.json')
           },
           {
             path: '/category/:category',
             element: <ProductCards></ProductCards>,
-            loader: () => fetch('../public/products.json')
+            loader: () => fetch('/products.json')
           },
         ],
       },
@@ -44,18 +49,18 @@ const routes = createBrowserRouter([
       {
         path: '/dashboard',
         element: <Dashboard></Dashboard>,
-        loader: () => fetch('../public/products.json')
+        loader: () => fetch('/products.json')
       },
       {
         path: '/product/:id',
         element: <ProductDeails></ProductDeails>,
-        loader: () => fetch('../public/products.json')
+        loader: () => fetch('/products.json')
       },
     ],
 
   },
-],{
-  future:{
+], {
+  future: {
     v7_startTransition: true,
     v7_skipActionErrorRevalidation: true,
     v7_fetcherPersist: true,
@@ -68,7 +73,7 @@ const routes = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={routes} future={{v7_startTransition:true,}} />
+    <RouterProvider router={routes} future={{ v7_startTransition: true, }} />
     <ToastContainer />
   </StrictMode>,
 )

@@ -9,8 +9,8 @@ const Heading = ({ title, subtitle }) => {
                 <div className="hero pt-8 pb-20 bg-fuchsia-800 ">
                     <div className="hero-content text-center">
                         <div className="max-w-md">
-                            <h1 className="text-5xl font-bold">{title}</h1>
-                            <p className="py-6">{subtitle}</p>
+                            <h1 className="text-5xl text-white font-bold">{title}</h1>
+                            <p className="py-6 font-medium text-white ">{subtitle}</p>
                             
                         </div>
                     </div>

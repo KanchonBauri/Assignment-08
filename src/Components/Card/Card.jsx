@@ -1,11 +1,13 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLoaderData, useLocation } from 'react-router-dom';
 import { ImCross } from "react-icons/im";
 
 const Card = ({ product, handleRemove }) => {
     const { pathname } = useLocation()
     // console.log(pathname)
 
+    const data = useLoaderData();
+    // console.log(data)
 
     const { product_image,
         product_title, price, id, } = product;
@@ -30,8 +32,8 @@ const Card = ({ product, handleRemove }) => {
                     </Link>
                 </div>
                 {
-                    pathname === '/dashboard' && <div onClick={()=> handleRemove(id)} >
-                        <button  className=' absolute text-1xl top-2 right-4 text-red-900 '><ImCross /></button>
+                    pathname === '/dashboard' && <div >
+                        <button onClick={() => handleRemove(id)}   className=' absolute text-1xl top-2 right-4 text-red-900 '><ImCross /></button>
                     </div>
                 }
             </div>

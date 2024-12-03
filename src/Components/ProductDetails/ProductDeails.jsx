@@ -31,16 +31,17 @@ const ProductDeails = () => {
         addToStoredWishList(id);
     }
 
+       
    
 
     return (
         <>
             <div className='' >
-                <Heading title={'This is Statistics'} subtitle={'this is subtitle'} ></Heading>
+                <Heading title={'Product Details'} subtitle={'Explore the latest gadgets that will take your experience to the next level. From smart Devices to the coolest accessories, we have it all!'} ></Heading>
             </div>
             <div className='flex  justify-center items-center mx-auto '>
                 {/* <h3>Product Details: {price} </h3> */}
-                <div className="hero w-5/6 bg-slate-300  z-10 -mt-20 border-4 border-white rounded-xl  ">
+                <div className="hero w-5/6 bg-slate-50  z-10 -mt-20 border-4 border-white rounded-xl  ">
                     <div className="hero-content flex justify-between flex-col gap-20 lg:flex-row">
                         <img
                             src={product_image}
